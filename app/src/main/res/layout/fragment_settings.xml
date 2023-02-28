@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <Button
+        android:id="@+id/idNoti"
+        android:layout_width="277dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/notifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idAccount"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idNoti" />
+
+    <Button
+        android:id="@+id/idPrivacy"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/privacy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idAccount" />
+
+    <Button
+        android:id="@+id/idVisual"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/visual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idPrivacy" />
+</androidx.constraintlayout.widget.ConstraintLayout>
